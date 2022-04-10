@@ -9,5 +9,4 @@ function mxdiflg(a1, a2) {
   }else{
     return -1
   }
-    // your code
 }
