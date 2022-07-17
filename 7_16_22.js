@@ -1,19 +1,3 @@
-<<<<<<< HEAD
-function removeSmallest(n, arr) {    
-    //   check that arr is valid i.e greater than or equal zero and smaller than total arr length
-      if(n <= 0) return arr;
-      if(n >= arr.length) return [] ;
-    //   while loop for n 
-      for(let i = 1; i <= n; i++){
-        //   find min with math..min
-        let min = Math.min(...arr)
-        //   filter arr to remove math min
-        let ind = arr.indexOf(min)
-        
-        arr.splice(ind,1)
-      }
-      return arr;
-=======
 function sortString(str,order) {
     // declare resulting sorted arr
     let res = []
@@ -29,5 +13,4 @@ function sortString(str,order) {
     }
     //   the result returns the sorted characters and any remaining unsorted characters in original position after sorted chars
       return res.join('') + str
->>>>>>> 3be7f9d21effc5f64d0e3a3475a3cebe7e0b5b53
     }
